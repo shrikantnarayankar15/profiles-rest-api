@@ -1,0 +1,626 @@
+    1  sudo apt-get install nvidia-driver-430
+    2  sudo apt-get install dkms build-essential
+    3  sudo reboot
+    4  sudo add-apt-repository ppa:graphics-drivers/ppa
+    5  sudo apt update
+    6  ubuntu-drivers lis
+    7  ubuntu-drivers list
+    8  uname -m && cat /etc/*release
+    9  sudo apt-get install dkms build-essential
+   10  sudo apt-get install freeglut3 freeglut3-dev libxi-dev libxmu-dev
+   11  nvidia-smi 
+   12  sudo apt-get install freeglut3 freeglut3-dev libxi-dev libxmu-dev
+   13  cd Downloads/
+   14  sudo sh cuda_10.1.168_418.67_linux.run
+   15  cat /etc/ld.so.conf.d/cuda-10-1.conf 
+   16  sudo gedit
+   17  sudo gedit /etc/profile.d/cuda.sh
+   18  source /etc/profile.d/cuda.sh
+   19  sudo mv /etc/ld.so.conf.d/cuda-10-1.conf  /etc/ld.so.conf.d/cuda-10-1.conf-orig
+   20  sudo gedit /etc/ld.so.conf.d/cuda.conf
+   21  sudo ldconfig
+   22  export PATH=$PATH:/usr/local/cuda-10.1/bin
+   23  export CUDADIR=/usr/local/cuda-10.1
+   24  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.1/lib64
+   25  cd ..
+   26  cd  ~/NVIDIA_CUDA-10.1_Samples
+   27  source cuda-10.1-env
+   28  cd ..
+   29  gedit cuda10.1-env`
+   30  gedit cuda10.1-env
+   31  cd  ~/NVIDIA_CUDA-10.1_Samples
+   32  source cuda-10.1-env
+   33  gedit cuda10.1-env
+   34  source cuda-10.1-env
+   35  source /usr/local/cuda-10.1-env
+   36  gedit /usr/local/cuda-10.1-env
+   37  cd ..
+   38  gedit cuda10.1-env
+   39  sudo gedit cuda10.1-env
+   40  cd striker
+   41  sudo gedit 
+   42  nvidia-smi 
+   43  tar -xf cudnn-10.1-linux-x64-v7.6.2.24.tgz 
+   44  sudo cp -R cuda/include/* /usr/local/cuda-10.1/include
+   45  sudo cp -R cuda/lib64/* /usr/local/cuda-10.1/lib64
+   46  sudo apt-get install libcupti-dev
+   47  echo 'export LD_LIBRARY_PATH=/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
+   48  cuda
+   49  nvcc
+   50  sudo apt-get -o Dpkg::Options::="--force-overwrite" install cuda-10-1
+   51  sudo apt-get -o Dpkg::Options::="--force-overwrite" install cuda-10.1
+   52  sudo apt-get -o Dpkg::Options::="--force-overwrite" install cuda-drivers
+   53  conda install tensorflow-gpu
+   54  conda install swig
+   55  conda install matplotlib
+   56  conda install keras
+   57  conda install -c https://conda.anaconda.org/kne pybox2d
+   58  sasad
+   59  pip uninstall box2d-py
+   60  pip install box2d-py
+   61  coonda install keras
+   62  conda install keras
+   63  conda install gym
+   64  pip install box2d-py
+   65  conda install tensorflow-gpu
+   66  conda install matploylib
+   67  conda install matplotlib
+   68  conda install keras
+   69  pip install gym-super-mario-bros
+   70  pip install gym-retro
+   71  pip install nes_py
+   72  pip install gym-super-mario-bros
+   73  pip install neat-python
+   74  pip install cv2
+   75  pip install opencv2
+   76  pip install opencv-contrib-python
+   77  pip install dlib
+   78  udo apt-get install libav-tools
+   79  sudo apt-get install libav-tools
+   80  sudo apt-get install ffmpeg
+   81  cd Downloads
+   82  ./pycharm.sh 
+   83  udo apt-get install libav-tools
+   84  ./pycharm.sh 
+   85  sudo apt-get update
+   86  sudo apt-get install synaptic
+   87  gedit hehe
+   88  sort hehe
+   89  sort hehe|nl
+   90  sort hehe|nl|head -3
+   91  nl hehe
+   92  split -1 hehe
+   93  split -1 heh;cat xa?|head-3
+   94  split -1 hehe;cat xa?|head-3
+   95  split -1 hehe;cat xa?|head -3
+   96  ps -A | head -5|nl
+   97  ps -A | head -5
+   98  ps -A | tac
+   99  ps -A | tac|head -5|cut -b 1-5
+  100  ps-A
+  101  ps -A
+  102  ps -A | tac|head -5|cut -b 1-5
+  103  cat /proc/meminfo
+  104  ps -ag
+  105  gedit lol.c
+  106  gcc lol.c
+  107  gedit lol.c &
+  108  gcc lol.c
+  109  ./a.out 
+  110  gcc lol.c
+  111  ./a.out 
+  112  gcc
+  113  g++ first.cpp 
+  114  ls
+  115  ./a.out
+  116  code .
+  117  sudo apt-get install build-essential gdb
+  118  gcc
+  119  gcc -version
+  120  gcc --version
+  121  g++
+  122  g++ --version
+  123  g++ 
+  124  g++ -g *
+  125  ls
+  126  cd "/home/striker/cpp"
+  127  ./"hello" 
+  128  cd "/home/striker/cpp"
+  129  ./"hello" 
+  130  cd "/home/striker/cpp"
+  131  ./"hello" 
+  132  cd "/home/striker/cpp"
+  133  ./"hello" 
+  134  ~cd "/home/striker/cpp"
+  135  ./"hello" 
+  136  cd "/home/striker/cpp"
+  137  ./"hello" 
+  138  cd "/home/striker/cpp"
+  139  ./"hello" 
+  140  cd "/home/striker/cpp"
+  141  ./"hello" 
+  142  cd "/home/striker/cpp"
+  143  ./"hello" 
+  144  cd "/home/striker/cpp"
+  145  ./"hello" 
+  146  cd "/home/striker/cpp"
+  147  ./"hello" 
+  148  cd "/home/striker/cpp"
+  149  ./"hello" 
+  150  export PATH=/home/yourUserName/anaconda3/bin:$PATH
+  151  export PATH=/home/striker/anaconda3/bin:$PATH
+  152  sudo chmod +x Anaconda3-2019.07-Linux-x86_64.sh 
+  153  ./Anaconda3-2019.07-Linux-x86_64.sh 
+  154  cd ..
+  155  cd anaconda3/
+  156  cd bin/
+  157  ./anaconda
+  158  anaconda-navigator
+  159  conda
+  160  cd ..
+  161  anaconda-navigator.
+  162  anaconda-navigator
+  163  anacron 
+  164  cd anaconda3/
+  165  cd bin
+  166  ls
+  167  conda init
+  168  conda
+  169  ./conda
+  170  ./conda init
+  171  cd ..
+  172  source ~/anaconda3/bin/activate root
+  173  anaconda-navigator
+  174  sudo apt-get remove code
+  175  sudo apt-get purge code
+  176  sudo apt-get update
+  177  source /home/striker/anaconda3/bin/activate
+  178  conda activate base
+  179  /home/striker/anaconda3/bin/python /home/striker/ds/first.py
+  180  /home/striker/anaconda3/bin/python /home/striker/.vscode/extensions/ms-python.python-2019.8.30787/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 43931 /home/striker/ds/first.py 
+  181  source /home/striker/anaconda3/bin/activate
+  182  conda activate base
+  183  cd /home/striker/ds ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /home/striker/anaconda3/bin/python /home/striker/.vscode/extensions/ms-python.python-2019.8.30787/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 38849 /home/striker/ds/first.py 
+  184  cd /home/striker/ds ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /home/striker/anaconda3/bin/python /home/striker/.vscode/extensions/ms-python.python-2019.8.30787/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 34681 /home/striker/ds/first.py 
+  185  cd /home/striker/ds ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /home/striker/anaconda3/bin/python /home/striker/.vscode/extensions/ms-python.python-2019.8.30787/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 43213 /home/striker/ds/first.py 
+  186  cd /home/striker/ds ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /home/striker/anaconda3/bin/python /home/striker/.vscode/extensions/ms-python.python-2019.8.30787/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 33143 /home/striker/ds/first.py 
+  187  cd /home/striker/ds ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /home/striker/anaconda3/bin/python /home/striker/.vscode/extensions/ms-python.python-2019.8.30787/pythonFiles/ptvsd_launcher.py --default --nodebug --client --host localhost --port 35747 /home/striker/ds/first.py 
+  188  cd /home/striker/ds ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /home/striker/anaconda3/bin/python /home/striker/.vscode/extensions/ms-python.python-2019.8.30787/pythonFiles/ptvsd_launcher.py --default --nodebug --client --host localhost --port 43985 /home/striker/ds/first.py 
+  189  cd /home/striker/ds ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /home/striker/anaconda3/bin/python /home/striker/.vscode/extensions/ms-python.python-2019.8.30787/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 40999 /home/striker/ds/first.py 
+  190  source /home/striker/anaconda3/bin/activate
+  191  conda activate base
+  192  /home/striker/anaconda3/bin/python /home/striker/ds/json_data.py
+  193  python
+  194  /home/striker/anaconda3/bin/python /home/striker/ds/json_data.py
+  195  /home/striker/anaconda3/bin/python /home/striker/.vscode/extensions/ms-python.python-2019.8.30787/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 44797 /home/striker/ds/json_data.py 
+  196  source /home/striker/anaconda3/bin/activate
+  197  conda activate base
+  198  cd /home/striker/ds ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /home/striker/anaconda3/bin/python /home/striker/.vscode/extensions/ms-python.python-2019.8.30787/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 36941 /home/striker/ds/json_data.py 
+  199  cd /home/striker/ds ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /home/striker/anaconda3/bin/python /home/striker/.vscode/extensions/ms-python.python-2019.8.30787/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 37141 /home/striker/ds/json_data.py 
+  200  cd /home/striker/ds ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /home/striker/anaconda3/bin/python /home/striker/.vscode/extensions/ms-python.python-2019.8.30787/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 45267 /home/striker/ds/json_data.py 
+  201  ./conda
+  202  ./pycharm.sh 
+  203  which nvcc
+  204  nvcc --version
+  205  conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+  206  conda activate lol
+  207  cd PycharmProjects/
+  208  cd lol
+  209  conda activate lol
+  210  conda info --envs
+  211  conda activate /home/striker/miniconda3/envs/lol
+  212  conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+  213  ww
+  214  nvcc --version
+  215  cd PycharmProjects/
+  216  cd lol
+  217  conda activate /home/striker/miniconda3/envs/lol
+  218  conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
+  219  nvcc --version
+  220  sudo apt-get install cuda-10-0
+  221  sudo apt-get install cuda
+  222  sudo apt-get install cuda-10-0
+  223  sudo apt-get install cuda
+  224  exit()
+  225  exit
+  226  sudo apt-get install cuda
+  227  sudo add-apt-repository ppa:graphics-drivers/ppa
+  228  nvidia-smi
+  229  gedit lol.py
+  230  python lol.py 1 2 3
+  231  python lol.py 1,2,3
+  232  gedit lol.py
+  233  python lol.py 1,2,3
+  234  gedit lol.py
+  235  sudo snap install octave
+  236  octave
+  237  sudo apt install octave
+  238  octave
+  239  calc
+  240  cal
+  241  sudo apt install apcalc
+  242  calc
+  243  octave
+  244  ./pycharm.sh 
+  245  vi 'r'
+  246  ls
+  247  vi lol.txt
+  248  cat lol.
+  249  cat lol.txt 
+  250  vi lol.txt
+  251  vi l
+  252  rm l
+  253  rm lol.txt 
+  254  vi l
+  255  vim
+  256  sudo apt install vim
+  257  vim l
+  258  "heh" > lol
+  259  cat "heh" > lol
+  260  "he" < lol
+  261  echo "he" > te
+  262  te
+  263  cat te
+  264  ps > te
+  265  te
+  266  cat te
+  267  ps || ps
+  268  ps
+  269  ps && ps
+  270  echo "he" | ps
+  271  echo "he" &&  ps
+  272  echo "he" || ps
+  273  echo "he" &&  ps
+  274  ./pycharm.sh 
+  275  source activate lol
+  276  cd ..
+  277  ls
+  278  cd PycharmProjects/
+  279  ls
+  280  cd lol
+  281  source activate lol
+  282  conda info --envs
+  283  source activate /home/striker/miniconda3/envs/lol
+  284  cd ..
+  285  jupyter notebook
+  286  nvcc
+  287  ./pycharm.sh 
+  288  source activate /home/striker/miniconda3/envs/lol
+  289  which jupyter
+  290  jupyter notebook
+  291  source activate /home/striker/miniconda3/envs/lol
+  292  jupyter notebook
+  293  ./pycharm.sh 
+  294  source activate /home/striker/miniconda3/envs/lol
+  295  jupyter notebook
+  296  cd pytorch/
+  297  cd ..
+  298  ./pycharm.sh 
+  299  fastboot devices
+  300  sudo apt install fastboot
+  301  fastboot devices
+  302  sudo fastboot devices
+  303  fastboot boot twrp.img
+  304  sudo fastboot boot twrp.img
+  305  sudo fastboot boot twrp-3.3.1-1-fajita.img 
+  306  sudo fastboot oem unlock
+  307  w
+  308  s
+  309  ad
+  310  asd
+  311  fastboot oem unlock
+  312  sudo fastboot boot twrp-3.3.1-1-fajita.img 
+  313  adb 
+  314  adb sideload twrp-perm.zip 
+  315  sudo apt install torbrowser-launcher
+  316  sudo sudo apt install torbrowser-launcher
+  317  sudo dpkg --configure -a
+  318  deb https://deb.torproject.org/torproject.org bionic main
+  319  sudo add-apt-repository universe && sudo apt update
+  320  sudo apt install torbrowser-launcher
+  321  jupyter notebook
+  322  source /home/striker/anaconda3/bin/activate
+  323  conda activate base
+  324  /home/striker/anaconda3/bin/python /home/striker/ds/first.py
+  325  jupyter notebook
+  326  source /home/striker/anaconda3/bin/activate
+  327  conda activate base
+  328  /home/striker/anaconda3/bin/python /home/striker/ds/first.py
+  329  nvcc
+  330  nvc
+  331  nvcc
+  332  nvidia-smi
+  333  ./pycharm.sh 
+  334  jupyter notebook
+  335  sudo apt install python3-django
+  336  django-admin --version
+  337  sudo apt install python3-django
+  338  sudo django-admin --version
+  339  django-admin --version
+  340  mkvirtualenv test
+  341  sudo pip3 install virtualenvwrappe
+  342  sudo pip3 install virtualenvwrapper
+  343  mkvirtualenv test
+  344  sudomkvirtualenv test
+  345  mkvirtualenv 
+  346  sudo  mkvirtualenv 
+  347  mkdir django
+  348  cd django
+  349  base
+  350  django-admin 
+  351  sudo django-admin 
+  352  sudo django-admin startproject
+  353  sudo django-admin startproject shri
+  354  ls
+  355  cd shri
+  356  l
+  357  ls
+  358  l
+  359  k
+  360  p
+  361  o
+  362  m
+  363  $="he"
+  364  python3 manage.py runserver
+  365  sudo python3 manage.py runserver
+  366  pip3 install
+  367  pip3 install django-admin
+  368  django
+  369  django-admin
+  370  pip3 install django
+  371  django-admin --version
+  372  sudo python3 manage.py runserver
+  373  /home/striker/anaconda3/bin/python /home/striker/.vscode/extensions/ms-python.python-2019.10.41019/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 38403 /home/striker/django/shri/manage.py runserver --noreload 
+  374  source /home/striker/anaconda3/bin/activate
+  375  conda activate base
+  376  source /home/striker/anaconda3/bin/activate
+  377  conda activate base
+  378  sudo python3 manage.py runserver
+  379  ps auxw | grep runserver
+  380  kill 8040
+  381  sudo kill 8040
+  382  sudo kill 8041
+  383  sudo kill 8042
+  384  clear
+  385  sudo python3 manage.py runserver
+  386  ps auxw | grep runserver
+  387  sudo kill 12007
+  388  source /home/striker/anaconda3/bin/activate
+  389  conda activate base
+  390  sudo django startapp calc
+  391  sudo django-admin startapp calc
+  392  sudo chmod 755 shri
+  393  cd..
+  394  cd .
+  395  cd ..
+  396  sudo chmod 755 shri
+  397  sudo chown -R $striker: $shri
+  398  sudo chown -R striker:shri
+  399  sudo chown -R striker:home
+  400  sudo chown -R striker:$home
+  401  sudo chown -R $USER:$HOME
+  402  sudo chown -R $USER: $HOME
+  403  django
+  404  django-admin
+  405  pip install django-admin
+  406  pip3 install django-admin
+  407  cd shri
+  408  mkdir templates
+  409  sudo django-admin startapp travello
+  410  sudo rm travello
+  411  rmdir travello
+  412  sudo rmdir travello
+  413  sudo rmdir -r travello
+  414  sudo rmdir -R travello
+  415  sudo rmdir -f travello
+  416  sudo rmdir travello
+  417  ls
+  418  sudo chown -R $USER: $HOME
+  419  django-admin startapp travello
+  420  source /home/striker/anaconda3/bin/activate
+  421  conda activate base
+  422  /home/striker/anaconda3/bin/python /home/striker/django/shri/calc/views.py
+  423  conda install django
+  424  django-admin
+  425  django-admin manage.py startserver 
+  426  django-admin manage.py startproject
+  427  python manage.py startserver 
+  428  python manage.py startproject 
+  429  python manage.py runserver
+  430  pgadmin
+  431  apt-get install postgresql-11
+  432  sudo apt-get install postgresql-11
+  433  sudo   /usr/lib/postgresql/11/bin/pg_ctl -D /var/lib/postgresql/11/main -l logfile start
+  434  sudo /usr/lib/postgresql/11/bin/pg_ctl -D /var/lib/postgresql/11/main -l logfile start
+  435  sudo apt-get install wget ca-certificates
+  436  wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add 
+  437  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+  438  sudo apt-get update
+  439  sudo apt-get install postgresql postgresql-contrib
+  440  sudo su - postgres
+  441  sudo apt-get install postgresql-11 pgadmin4
+  442  sudo su - postgres
+  443  sudo -u postgres psql
+  444  psql -U postgres -h localhost
+  445  python manage.py makemigrations
+  446  python manage.py sqlmigrate travello 0001
+  447  python manage.py migrate
+  448  python manage.py makemigrations
+  449  python manage.py help
+  450  python manage.py createsuperuser
+  451  python manage.py startapp accounts
+  452  conda install psycopg2
+  453  python manage.py runserver
+  454  jupyter notebook
+  455  vagrant
+  456  git config --global user.email "k1nnn18@gmail.com"
+  457  git config user.name "Shrikant Narayankar"
+  458  git config user.name "Shrikant Narayankar"PS
+  459  PS1="a"
+  460  PS1="$terminal"
+  461  su
+  462  sad
+  463  PS1="terminal"
+  464  PS1="$tserminal"
+  465  PS1="tserminal"
+  466  clear
+  467  PS1="$tserminal$"
+  468  clear
+  469  sudo gedit ~/.bashrc
+  470  apt-get install git
+  471  sudo apt-get install git
+  472  cd django-udem/
+  473  sudo gedit ~/.bashrc
+  474  cd django-udem/
+  475  sudo gedit ~/.bashrc
+  476  cd django-udem/
+  477  ls
+  478  cd django-udem/
+  479  ls
+  480  hostname
+  481  hostname
+  482  ls
+  483  vboxmanage --version
+  484  sudo /sbin/vboxconfig
+  485  cd django-udem/
+  486  git init
+  487  git config --global user.email "k1nnn18@gmail.com"
+  488  git config user.name "Shrikant Narayankar"
+  489  ls
+  490  who
+  491  mkdir profiles-rest-api
+  492  ls
+  493  cd ~
+  494  ;s
+  495  ls
+  496  cd django-udem/
+  497  cd profiles-rest-api/
+  498  cd .
+  499  ls
+  500  cd ..
+  501  ls
+  502  django-udem cd profiles-rest-api/
+  503  ls
+  504  cd ..
+  505  django-udem cd profiles-rest-api/
+  506  cd django-udem/
+  507  cd profiles-rest-api/
+  508  clear
+  509  ;;s
+  510  clear
+  511  pwd
+  512  cd ..
+  513  ls
+  514  cd profiles-rest-api/
+  515  ls
+  516  git init
+  517  git add .
+  518  ls
+  519  git commit -am "Initial commit"
+  520  ls ~/.ssh
+  521  ssh-keygen
+  522  ssh-keygen -t rsa -b 4096 -C "k1nnn18@gmail.com"
+  523  ls ~/.ssh
+  524  cat ~/.ssh/id_rsa.pub
+  525  ls
+  526  git remote add origin https://github.com/shrikantnarayankar15/profiles_rest-api.git
+  527  git push -u origin master
+  528  git remote add origin ssh://github.com/shrikantnarayankar15/profiles_rest-api.git
+  529  git push -u origin master
+  530  git remote set-url origin ssh://github.com/shrikantnarayankar15/profiles_rest-api.git
+  531  git push -u origin master
+  532  sudo git push -u origin master
+  533  git remote set-url origin ssh://github.com/shrikantnarayankar15/profiles_rest-api.git
+  534  sudo git push -u origin master
+  535  git config --global user.email "k1nnn18@gmail.com"
+  536  git config user.name "Shrikant Narayankar"
+  537  sudo git push -u origin master
+  538  git remote set-url origin https://github.com/shrikantnarayankar15/profiles_rest-api.git
+  539  sudo git push -u origin master
+  540  git remote set-url origin ssh://github.com/shrikantnarayankar15/profiles_rest-api.git
+  541  sudo git push -u origin master
+  542  ssh-keygen -t rsa -b 4096 -C "k1nnn18@gmail.com"
+  543  cat ~/.ssh/id_rsa.pub
+  544  git remote set-url origin ssh://github.com/shrikantnarayankar15/profiles_rest-api.git
+  545  sudo git push -u origin master
+  546  cd ..
+  547  ls
+  548  cd profiles-rest-api/
+  549  ;s
+  550  ls
+  551  clear
+  552  ls ~./ssh
+  553  ls ~/.ssh
+  554  ls
+  555  ssh-keygen -t rsa -b 4096 -C "k1nnn18@gmail.com"
+  556  ls ~/.ssh
+  557  rm  ~/.ssh/known_hosts 
+  558  ls ~/.ssh
+  559  cler
+  560  clear
+  561  cat ~/.ssh/id_rsa.pub
+  562  git remote set-url origin git@github.com:shrikantnarayankar15/profiles_rest-api.git
+  563  sudo git push -u origin master
+  564  git init
+  565  git remote set-url origin ssh://github.com/shrikantnarayankar15/profiles_rest-api.git
+  566  sudo git push -u origin master
+  567  git remote set-url origin k1nnn18@gmai.com:shrikantnarayankar15/profiles_rest-api.git
+  568  sudo git push -u origin master
+  569  git remote set-url origin k1nnn18@gmail.com:shrikantnarayankar15/profiles_rest-api.git
+  570  sudo git push -u origin master
+  571  ssh-keygen -t rsa -C "k1nnn18@gmail.com"
+  572  ssh -T git@github.com
+  573  rm  ~/.ssh/known_hosts 
+  574  rm  ~/.ssh/known_hosts ssh-keyscan github.com >> ~/.ssh/known_hosts
+  575  ssh-keyscan github.com >> ~/.ssh/known_hosts
+  576  git remote set-url origin k1nnn18@gmail.com:shrikantnarayankar15/profiles_rest-api.git
+  577  git push -u origin master
+  578  git remote set-url origin ssh://github.com/shrikantnarayankar15/profiles_rest-api.git
+  579  git push -u origin master
+  580  ssh -T git@github.com
+  581  ssh-keygen -t rsa -C "your_email@example.com"
+  582  cat ~/.ssh/id_rsa.pub
+  583  ssh-keygen -t rsa -C "k1nnn18@gmail.com"
+  584  cat ~/.ssh/id_rsa.pub
+  585  ssh -T git@github.com
+  586  git remote set-url origin git@github.com:shrikantnarayankar15/profiles-rest-api.git
+  587  git push -u origin master
+  588  clear
+  589  ls
+  590  history > history_for_udemy.txt
+  591  ls
+  592  vagrant init ubuntu/bionic64
+  593  ls
+  594  vagrant up
+  595  source /home/striker/anaconda3/bin/activate
+  596  conda activate base
+  597  vagrant up
+  598  vagrant ssh
+  599  clear
+  600  ls
+  601  git add .
+  602  git commit -am "Created django project"
+  603  git push origin
+  604  ls
+  605  git add .
+  606  git commit -am "added custom user profiles model, manager and migrations"
+  607  git push origin
+  608  git add .
+  609  git commit -am "upgraded django version"
+  610  git push origin
+  611  git add .
+  612  git commit -am "Enable django admin for user profile"
+  613  git push origin
+  614  conda install djangorestframework
+  615  conda config --add channels conda-forge
+  616  conda install djangorestframework
+  617  git add .
+  618  git commit -am "Added Hello API View"
+  619  git push origin
+  620  git add .
+  621  git commit -m "Added POST, PUT, PATCH AND DELETE method to our API"
+  622  git push origin
+  623  git add .
+  624  git commit -am "Added viewset to profiles to project"
+  625  git push origin
+  626  history > commands2_local.txt

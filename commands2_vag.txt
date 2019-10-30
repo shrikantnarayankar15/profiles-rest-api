@@ -1,0 +1,33 @@
+    1  exit
+    2  sudo apt-get install -y python3-venv zip
+    3  cd vagrant
+    4  cd /vagrant
+    5  touch test.txt
+    6  ls
+    7  python hello_world.py
+    8  exit
+    9  exit() exit
+   10  exit
+   11  clear
+   12  cd /vagrant
+   13  python -m venv ~/env
+   14* 
+   15  deactivate
+   16  source ~/env/bin/activate
+   17  ls
+   18  pip install -r requirements.txt 
+   19  django-admin.py startproject profiles_project .
+   20  python manage.py startapp profiles_api
+   21  clear
+   22  ls
+   23  python manage.py runserver 0.0.0.0:8000
+   24  ls
+   25  python manage.py makemigrations profiles_api
+   26  python manage.py migrate
+   27  pip install -r requirements.txt 
+   28  clear
+   29  history > commands1.txt
+   30  ls
+   31  python manage.py createsuperuser
+   32  python manage.py runserver 0.0.0.0:8000
+   33  history > commands2_vag.txt
