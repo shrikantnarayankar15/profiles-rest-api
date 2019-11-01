@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import AbstractBaseUser
 from django.contrib.auth.models import PermissionsMixin
 from django.contrib.auth.models import BaseUserManager
-
+from django.conf import settings
 
 class UserProfileManager(BaseUserManager):
     """Manger for user profile"""
@@ -27,7 +27,7 @@ class UserProfileManager(BaseUserManager):
         user.is_superuser = True
         user.is_staff = True
         user.save(using=self._db)
-        
+
         return user
 
 class UserProfile(AbstractBaseUser, PermissionsMixin):
@@ -54,3 +54,40 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
         """Return string representation of our user"""
         return self.email
     
+class ProfileFeedItem(models.Model):
+    """Profile status update"""
+    user_profile = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+    )
+    status_text = models.CharField(max_length=255, default='DEFAULT VALUE')
+    created_on = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        """return the model as string"""
+        return self.status_text
+
+class ProductCategory(models.Model):
+
+    """Product Category"""
+    product_category = models.CharField(max_length=255, default='DEFAULT VALUE')
+
+    def __str__(self):
+        return self.product_category
+
+class ProductList(models.Model):
+
+    """Profile status update"""
+    product_category = models.ForeignKey(
+        'profiles_api.ProductCategory',
+        on_delete=models.CASCADE,
+    )
+
+    product_name = models.CharField(max_length=255, default='DEFAULT VALUE')
+    product_img_field = models.ImageField(upload_to='media', max_length=254)
+    product_price = models.IntegerField(default=0)
+    created_on = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        """return the model as string"""
+        return self.product_name
